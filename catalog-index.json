@@ -1,0 +1,11 @@
+{
+  "messages-pt": {
+    "url": "file://./catalogs/messages-pt.json"
+  },
+  "messages-en": {
+    "url": "file://./catalogs/messages-en.json"
+  },
+  "messages-remote": {
+    "url": "http://hostname:port/catalogs/messages.json"
+  }
+}

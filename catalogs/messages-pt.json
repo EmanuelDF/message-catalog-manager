@@ -1,0 +1,53 @@
+{
+  "0001": {
+    "message": "Exemplo de mensagem de negócio.",
+    "action": "Teste de mensagem do catálogo.",
+    "url": "http://www.test.com/normativo1/README.md"
+  },
+  "0002": {
+    "message": "Este é um exemplo de mensagem com inserções especiais {id} - {number} - {boolean}",
+    "action": "Teste de mensagem do catálogo.",
+    "detail": "Detalhes, detalhes, e mais detalhes e o ID é {id}",
+    "url": "http://www.test.com/normativo2/README.md"
+  },
+  "0003": {
+    "message": "Este é um exemplo de mensagem com inserções posicionais {0} {1} {2} {3}",
+    "action": "Teste de mensagem do catálogo.",
+    "url": "http://www.test.com/normativo3/README.md"
+  },
+  "0004": {
+    "message": "Mais um um exemplo de mensagem.",
+    "action": "Teste de mensagem do catálogo.",
+    "url": "http://www.test.com/normativo4/README.md"
+  },
+  "0005": {
+  },
+  "0006": {
+    "message": "Exemplo de mensagem simples."
+  },
+  "0007": {
+    "message": "Mais um um exemplo de mensagem.",
+    "action": "Teste de mensagem do catálogo.",
+    "url": "http://www.test.com/normativo_e_procedimentos/README.md",
+    "namedInserts": {
+      "key": "negócio"
+    }
+  },
+  "0008": {
+    "message": "This is a message with a pattern to select named inserts",
+    "action": "Teste de mensagem do catálogo.",
+    "url": "http://www.test.com/normativo_e_procedimentos/README.md",
+    "dataNamedInsertsPattern": "^(user\\.)"
+  },
+  "0009": {
+    "message": "Este é um exemplo de mensagem com inserções especiais {foo} - {boo} - {num}",
+    "action": "Teste de mensagem do catálogo.",
+    "detail": "Detalhes, detalhes, e mais detalhes {id}",
+    "url": "http://www.test.com/normativo_e_procedimentos/README.md",
+    "dataNamedInsertsPattern": "^(user\\.)",
+    "data": {
+      "myFOO": "ANTES {foo} DEPOIS"  ,
+      "myBOO": "{boo}"
+    }
+  }
+}

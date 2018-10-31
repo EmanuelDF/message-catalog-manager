@@ -1,0 +1,15 @@
+{
+  "name": "message-catalog-manager",
+  "version": "0.0.1",
+  "description": "message catalog manager",
+  "engines": {
+    "node": "4.4",
+    "npm": "3.x"
+  },
+  "scripts": {
+    "start": "node ./client/errorMiddlewareApp.js"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
